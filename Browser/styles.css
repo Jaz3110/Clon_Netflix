@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.WhoIsWatching{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: black ;
+}
+.logo{
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+}
+.logo-section{
+    width: 95vw;
+    margin: auto;
+    height: 5rem;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main-div{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-div h1{
+    font-size: 6.8 rem;
+    letter-spacing: 0.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+.memberDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.memberDiv .btn{
+    height: 10vw;
+    min-height: 8.4rem;
+    max-height: 20rem;
+    width: 10vw;
+    min-width: 8.4rem;
+    max-width: 20rem;
+    border-radius: 0.4rem;
+    border: none;
+    outline: none;
+    margin-top: 3rem;
+    margin-right: 15rem;
+    position: relative;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.memberDiv .btn:nth-child(1){
+    background-image: url("./marciano.png");
+}
+.memberDiv .btn:nth-child(2){
+    background-image: url("./panda.png");
+}
+.memberDiv .btn:nth-child(2){
+    background-image: url("./pinguino.png");
+}
+.memberDiv .btn:hover{
+    box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.9);
+}
+.memberDiv .btn span{
+    width: inherit;
+    position: absolute;
+    bottom: -3.5rem;
+    left: 0;
+    text-transform: capitalize;
+    color: rgb(153, 153, 153);
+    font-size: 2rem;
+}
+.manageProfile{
+    border: 1px solid grey ;
+    color:grey;
+    text-transform: uppercase;
+    padding:0.5rem 1.5rem;
+    letter-spacing: 0.5rem;
+    margin-top: 8.5rem;
+    background-color: transparent;
+    cursor:pointer;
+}
+.manageProfile:hover{
+    border: 1px solid #fff;
+    color: #fff;
+}
